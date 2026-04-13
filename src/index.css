@@ -1,0 +1,100 @@
+/* Google Fonts — Noto Sans KR (본문) + Roboto Mono (헤딩 / LiberationMono 대체) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Roboto+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+/* ===== Reset (meyer reset 핵심만) ===== */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* ===== Body ===== */
+body {
+  color: #000;
+  font-family: 'Noto Sans KR', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p { margin: 1em 0; }
+
+/* ===== Layout ===== */
+.content {
+  width: 700px;
+  margin: 2em auto 0 auto;
+}
+
+/* ===== Headings & monospace elements ===== */
+h1, h2, h3, ul {
+  font-family: 'Roboto Mono', Courier, monospace;
+  text-align: center;
+}
+h1 { margin: 3em 0 0 0; font-size: 2em; }
+h2 { font-size: 1em; }
+h2, h3, h3 a, .lang { color: gray; }
+h3 { margin: 5em auto; font-size: 1em; }
+h3 a { text-decoration: none; }
+h3 a:hover { text-decoration: underline; }
+
+/* ===== Divider ===== */
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: 0;
+  margin-bottom: 3em;
+}
+
+/* ===== Language list ===== */
+ul { margin: 3em auto; text-align: left; list-style: none; padding: 0; }
+li { display: inline-block; width: 33.33%; }
+li.en          { color: brown;     }
+li.ko          { color: indigo;    }
+li.jp          { color: crimson;   }
+li.cn          { color: darkcyan;  }
+li.num         { color: violet;    }
+li.ar          { color: goldenrod; }
+li.punct       { color: deeppink;  }
+li.parentheses { color: limegreen; }
+
+/* ===== Multilingual span classes ===== */
+.ml-en {
+  color: brown;
+  font-family: 'Roboto Mono', Courier, monospace;
+  font-size: 1.05em;
+  letter-spacing: -0.02em;
+}
+.ml-ko  { color: indigo;    }
+.ml-jp  { color: crimson;   }
+.ml-cn  { color: darkcyan;  }
+.ml-ar  { color: goldenrod; }
+.ml-num {
+  font-family: 'Roboto Mono', Courier, monospace;
+  color: violet;
+  font-size: 1.05em;
+  letter-spacing: -0.02em;
+}
+.ml-punct {
+  font-family: 'Roboto Mono', Courier, monospace;
+  color: deeppink;
+}
+.ml-parentheses {
+  color: limegreen;
+  font-family: 'Roboto Mono', Courier, monospace;
+  font-size: 1.05em;
+  position: relative;
+  top: -0.05em;
+  letter-spacing: -0.075em;
+  margin-left: -0.075em;
+}
+
+/* ===== GitHub corner animation ===== */
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,100% { transform: rotate(0); }
+  20%,60% { transform: rotate(-25deg); }
+  40%,80% { transform: rotate(10deg); }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm { animation: none; }
+  .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+}
