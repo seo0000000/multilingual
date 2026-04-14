@@ -62,13 +62,13 @@ li.parentheses { color: limegreen; }
   letter-spacing: -0.02em;
 }
 .ml-ko  { color: rgb(25, 203, 96);    }
-.ml-jp  { color: crimson;   }
-.ml-cn  { color: darkcyan;  }
+.ml-jp  { color: black;   }
+.ml-cn  { color: black;  }
 .ml-ar  { color: goldenrod; }
 .ml-num {
   font-family: 'Roboto Mono', Courier, monospace;
   color: violet;
-  font-size: 1.05em;
+  font-size: 2.05em;
   letter-spacing: -0.02em;
 }
 .ml-punct {
