@@ -61,7 +61,7 @@ li.parentheses { color: limegreen; }
   font-size: 1.05em;
   letter-spacing: -0.02em;
 }
-.ml-ko  { color: indigo;    }
+.ml-ko  { color: rgb(25, 203, 96);    }
 .ml-jp  { color: crimson;   }
 .ml-cn  { color: darkcyan;  }
 .ml-ar  { color: goldenrod; }
