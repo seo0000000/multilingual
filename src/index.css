@@ -63,7 +63,7 @@ li.parentheses { color: limegreen; }
 }
 .ml-ko  { color: indigo;    }
 .ml-jp  { color: black;   }
-.ml-cn  { color: darkcyan;  }
+.ml-cn  { color: black;  }
 .ml-ar  { color: goldenrod; }
 .ml-num {
   font-family: 'Roboto Mono', Courier, monospace;
