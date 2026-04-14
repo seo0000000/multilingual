@@ -3,7 +3,7 @@ const ENTRIES = [
   { label: '한국어 (ml-ko)', color: '#2563eb' },
   { label: '日本語 (ml-jp)', color: '#16a34a' },
   { label: '中文 (ml-cn)',   color: '#ea580c' },
-  { label: 'Numbers (ml-num)', color: '#7c3aed' },
+  { label: 'Numbers(ml-num)', color: '#7c3aed' },
   { label: 'Punctuation (ml-punct)', color: '#0d9488' },
 ];
 
